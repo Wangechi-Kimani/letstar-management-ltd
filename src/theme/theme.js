@@ -18,8 +18,14 @@ const theme = createMuiTheme({
         background: {
           default: '#fff',
         },
+      },
+      grey: {
+        main: 'rgb(168, 169, 172)'
       }
-
+//   palette: {
+//     primary: indigo,
+//     secondary: pink,
+//   },
 });
 
 export default theme;
