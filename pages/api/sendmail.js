@@ -1,5 +1,3 @@
-import { NextApiRequest, NextApiResponse  } from 'next';
-
 import { sendEmail } from '../../utils/sendEmail';
 
 export default async (req, res) => {
